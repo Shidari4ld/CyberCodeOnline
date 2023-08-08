@@ -9,7 +9,7 @@
  	 	 	"eng": "Inventory"
  	 	},
  	 	"quest": {
- 	 	 	"trans": "بحث",
+ 	 	 	"trans": "مهام",
  	 	 	"eng": "Quest"
  	 	},
  	 	"chat": {
@@ -38,7 +38,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"amount"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${amount} سيتم إيداع عملة البيتكوين في حساب العصابة الخاص بك، ولا يمكن عكس ذلك",
+ 	 	 	 	 	"trans": "${amount} سيتم إيداع عملة البيتكوين في حساب العصابة الخاص بك، ولا يمكن التراجع عن ذلك",
  	 	 	 	 	"eng": "${amount} bitcoin will be deposit into your gang account, this cannot be reversed"
  	 	 	 	}
  	 	 	},
@@ -54,7 +54,7 @@
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"button": {
- 	 	 	 	 	"trans": "تحرير عصابة شعار",
+ 	 	 	 	 	"trans": "تعديل عصابة شعار",
  	 	 	 	 	"eng": "Edit Gang Motto"
  	 	 	 	}
  	 	 	},
@@ -96,16 +96,16 @@
  	 	 	 	"eng": "resource critical"
  	 	 	},
  	 	 	"insufficientFound": {
- 	 	 	 	"trans": "رصيد غير كاف",
+ 	 	 	 	"trans": "رصيد غير كافي",
  	 	 	 	"eng": "Insufficient Funds"
  	 	 	},
  	 	 	"insufficientResource": {
- 	 	 	 	"trans": "عدم كفاية الموارد",
+ 	 	 	 	"trans": "موارد غير كافية",
  	 	 	 	"eng": "Insufficient Resources"
  	 	 	},
  	 	 	"occupation": {
  	 	 	 	"noClan": {
- 	 	 	 	 	"trans": "لم تشغل أي عصابة هذه المنطقة بعد",
+ 	 	 	 	 	"trans": "لم تحتل أي عصابة هذه المنطقة بعد",
  	 	 	 	 	"eng": "No gang has occupied this area yet"
  	 	 	 	}
  	 	 	},
@@ -120,7 +120,7 @@
  	 	 	 	"eng": "Community Content"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "هذا المحتوى يساهم به المجتمع. انقر هنا للمساهمة المحتوى الخاص بك.",
+ 	 	 	 	"trans": "هذا المحتوى يساهم به المجتمع. انقر هنا للمساهمة بالمحتوى الخاص بك.",
  	 	 	 	"eng": "This content is contributed by the community. click here to contribute your own content."
  	 	 	}
  	 	},
@@ -128,16 +128,16 @@
  	 	 	"colors": {
  	 	 	 	"win": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "فك التشفير ناجحة",
+ 	 	 	 	 	 	"trans": "تم فك التشفير بنجاح",
  	 	 	 	 	 	"eng": "Decryption successful"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "معالجة",
+ 	 	 	 	 	 	"trans": "جار المعالجة",
  	 	 	 	 	 	"eng": "processing"
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "لقد وجدت مربع نهب مغلق مع لوحة مفاتيح ملونة، يجب أن تكون قادرا على فتحه باستخدام التسلسل الصحيح للألوان.",
+ 	 	 	 	 	"trans": "لقد وجدت صندوق غنيمة مع لوحة مفاتيح الوان, يفترض ان تكون قادر على فتحها بالتسلسل الصحيح للألوان",
  	 	 	 	 	"eng": "You found a locked loot box with color keypad, you should be able to unlock it with the correct sequence of colors."
  	 	 	 	},
  	 	 	 	"progress": {
@@ -151,7 +151,7 @@
  	 	 	 	 	"eng": "seconds"
  	 	 	 	},
  	 	 	 	"colorBox": {
- 	 	 	 	 	"trans": "انقر على هذا اللون أدناه",
+ 	 	 	 	 	"trans": "انقر على اللون أدناه",
  	 	 	 	 	"eng": "Click on this color below"
  	 	 	 	},
  	 	 	 	"lose": {
@@ -160,7 +160,7 @@
  	 	 	 	 	 	"eng": "Decryption failed"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "انقر فوق تسلسل اللون الصحيح لفتح",
+ 	 	 	 	 	 	"trans": "انقر فوق تسلسل الألوان الصحيح للفتح",
  	 	 	 	 	 	"eng": "Click on the correct color sequence to unlock"
  	 	 	 	 	},
  	 	 	 	 	"button": {
@@ -174,7 +174,7 @@
  	 	},
  	 	"supportUkraine": {
  	 	 	"description": {
- 	 	 	 	"trans": "يعاني أشخاص من أوكرانيا وروسيا والعالم بأسره لأن طموح رجل واحد. \\ N جعل الحب استغلال، وليس الحرب.",
+ 	 	 	 	"trans": "سكان اوكرانيا, روسيا وجميع انحاء العالم تعاني بسبب طموح رجل واحد .//دعوا الحب يزدهر، لا الحرب",
  	 	 	 	"eng": "People of Ukraine, Russia and the whole world are suffering because one man's ambition.\\n Make love exploit, not war."
  	 	 	}
  	 	},
@@ -184,7 +184,7 @@
  	 	 	 	"eng": "balance"
  	 	 	},
  	 	 	"deposit": {
- 	 	 	 	"trans": "الوديعة",
+ 	 	 	 	"trans": "ايداع",
  	 	 	 	"eng": "Deposit"
  	 	 	},
  	 	 	"depositDesc": {
@@ -192,41 +192,41 @@
  	 	 	 	"eng": "Put Bitcoins into bank"
  	 	 	},
  	 	 	"withdraw": {
- 	 	 	 	"trans": "ينسحب",
+ 	 	 	 	"trans": "سحب",
  	 	 	 	"eng": "Withdraw"
  	 	 	},
  	 	 	"withdrawDesc": {
- 	 	 	 	"trans": "تأخذ بيتكوين من البنك",
+ 	 	 	 	"trans": "خذ بيتكوين من البنك",
  	 	 	 	"eng": "Take Bitcoins out of bank"
  	 	 	},
  	 	 	"putItemToVault": {
- 	 	 	 	"trans": "إيداع البند",
+ 	 	 	 	"trans": "إيداع عنصر",
  	 	 	 	"eng": "Deposit Item"
  	 	 	},
  	 	 	"putItemToVaultDesc": {
- 	 	 	 	"trans": "وضع العناصر في قبو الخاص بك",
+ 	 	 	 	"trans": "وضع العناصر في خزنتك",
  	 	 	 	"eng": "Put items into your vault"
  	 	 	},
  	 	 	"takeItemFromVault": {
- 	 	 	 	"trans": "سحب البند",
+ 	 	 	 	"trans": "سحب عنصر",
  	 	 	 	"eng": "Withdraw Item"
  	 	 	},
  	 	 	"takeItemFromVaultDesc": {
- 	 	 	 	"trans": "خذ العناصر من قبو الخاص بك",
+ 	 	 	 	"trans": "سحب العناصر من خزنتك",
  	 	 	 	"eng": "Take items out from your vault"
  	 	 	},
  	 	 	"upgradeSlot": {
  	 	 	 	"vars": [
  	 	 	 	 	"upgradeToSlot"
  	 	 	 	],
- 	 	 	 	"trans": "الترقية إلى فتحات ${upgradeToSlot}",
+ 	 	 	 	"trans": "الترقية إلى خانات  ${upgradeToSlot}",
  	 	 	 	"eng": "UPGRADE TO ${upgradeToSlot} SLOTS"
  	 	 	},
  	 	 	"upgradeSlotDesc": {
  	 	 	 	"vars": [
  	 	 	 	 	"upgradeToSlot"
  	 	 	 	],
- 	 	 	 	"trans": "زيادة كمية الأقصى من العناصر التي يمكنك تخزينها في قبو إلى ${upgradeToSlot}",
+ 	 	 	 	"trans": "زيادة الحد الاقصى للعناصر القابل تخزينها الى ${upgradeToSlot}",
  	 	 	 	"eng": "Increase the max amount of items you can store in vault to ${upgradeToSlot}"
  	 	 	},
  	 	 	"itemLocked": {
@@ -235,29 +235,29 @@
  	 	 	},
  	 	 	"modal": {
  	 	 	 	"selectDepositItem": {
- 	 	 	 	 	"trans": "كم تريد أن تضع في قبو؟",
+ 	 	 	 	 	"trans": "كم تريد أن تضع في الخزنة؟",
  	 	 	 	 	"eng": "How many would you like to put in the vault?"
  	 	 	 	},
  	 	 	 	"selectWithdrawItem": {
- 	 	 	 	 	"trans": "كم تريد الانسحاب من البنك؟",
+ 	 	 	 	 	"trans": "كم المبلغ الذي تود سحبه؟",
  	 	 	 	 	"eng": "How many would you like to withdraw from the bank?"
  	 	 	 	},
  	 	 	 	"selectDeposit": {
- 	 	 	 	 	"trans": "كم تود ان تدفع عربون؟",
+ 	 	 	 	 	"trans": "كم المبلغ الذي تود إيداعه؟",
  	 	 	 	 	"eng": "How much would you like to deposit?"
  	 	 	 	},
  	 	 	 	"selectWithdraw": {
- 	 	 	 	 	"trans": "كم تريد الانسحاب؟",
+ 	 	 	 	 	"trans": "كم تريد السحب؟",
  	 	 	 	 	"eng": "How much would you like to withdraw?"
  	 	 	 	}
  	 	 	},
  	 	 	"upgradeVaultModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "ترقية قبو",
+ 	 	 	 	 	"trans": "ترقية الخزنة",
  	 	 	 	 	"eng": "Upgrade Vault"
  	 	 	 	},
  	 	 	 	"confirm": {
- 	 	 	 	 	"trans": "تطوير",
+ 	 	 	 	 	"trans": "ترقية",
  	 	 	 	 	"eng": "Upgrade"
  	 	 	 	}
  	 	 	},
@@ -270,19 +270,19 @@
  	 	 	"attackButton": {
  	 	 	 	"primary": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "الأولية",
+ 	 	 	 	 	 	"trans": "اساسي",
  	 	 	 	 	 	"eng": "primary"
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"secondary": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "مميز",
+ 	 	 	 	 	 	"trans": "خاص",
  	 	 	 	 	 	"eng": "special"
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"tertiary": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "التدمير.",
+ 	 	 	 	 	 	"trans": "المدمر",
  	 	 	 	 	 	"eng": "Destruct."
  	 	 	 	 	}
  	 	 	 	}
@@ -290,19 +290,19 @@
  	 	},
  	 	"generalCaptcha": {
  	 	 	"story": {
- 	 	 	 	"trans": "لقد وجدت صندوقًا آمنًا قديمًا مقفلًا ، يبدو أنه يوجد ملصق به بعض النصوص المكتوبة عليه.",
+ 	 	 	 	"trans": "لقد وجدت خزنة قديمًة مقفلًة ، يبدو أنه يوجد ملصق به بعض النصوص المكتوبة عليه.",
  	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
  	 	 	},
  	 	 	"title": {
- 	 	 	 	"trans": "رمز دبوس مطلوب لفتح",
+ 	 	 	 	"trans": "مطلوب رمز تعريف للفتح",
  	 	 	 	"eng": "Pin code required to unlock"
  	 	 	},
  	 	 	"inputLabel": {
- 	 	 	 	"trans": "رمز دبوس",
+ 	 	 	 	"trans": "رمز تعريف",
  	 	 	 	"eng": "Pin Code"
  	 	 	},
  	 	 	"inputPlaceholder": {
- 	 	 	 	"trans": "أدخل رمز PIN",
+ 	 	 	 	"trans": "أدخل رمز التعريف",
  	 	 	 	"eng": "Enter pin code"
  	 	 	}
  	 	},
@@ -312,26 +312,26 @@
  	 	 	 	"eng": "Reestablishing connection"
  	 	 	},
  	 	 	"notAtBottom": {
- 	 	 	 	"trans": "أنت تبحث في الرسائل القديمة",
+ 	 	 	 	"trans": "أنت تقرأ رسائل قديمة",
  	 	 	 	"eng": "You are looking at old messages"
  	 	 	},
  	 	 	"replyTo": {
  	 	 	 	"vars": [
  	 	 	 	 	"playerName"
  	 	 	 	],
- 	 	 	 	"trans": "الرد على ${playerName}",
+ 	 	 	 	"trans": "ردا على ${playerName}",
  	 	 	 	"eng": "Replying to ${playerName}"
  	 	 	},
  	 	 	"linksNotAllowed": {
- 	 	 	 	"trans": "لا يسمح الروابط",
+ 	 	 	 	"trans": "الروابط غير مسموحة",
  	 	 	 	"eng": "Links are not allowed"
  	 	 	},
  	 	 	"spamBlock": {
- 	 	 	 	"trans": "من فضلك لا ترسل رسالة لا معنى لها، سيتم صامتم الرسائل غير المرغوب فيها.",
+ 	 	 	 	"trans": "من فضلك لا ترسل رسائل بدون معنى, سيتم كتم من يرسل رسائل مكررة.",
  	 	 	 	"eng": "Please do not send meaningless message, spams will be muted."
  	 	 	},
  	 	 	"repeatBlock": {
- 	 	 	 	"trans": "من فضلك لا ترسل نفس الرسالة مرارا وتكرارا، سيتم صامت الرسائل غير المرغوب فيها.",
+ 	 	 	 	"trans": "من فضلك لا ترسل نفس الرسالة مرارا وتكرارا، سيتم كتم من يرسل رسائل مكررة.",
  	 	 	 	"eng": "Please do not send the same message repeatedly, spams will be muted."
  	 	 	},
  	 	 	"shortChatBlock": {
@@ -358,7 +358,7 @@
  	 	 	 	"eng": "mail"
  	 	 	},
  	 	 	"noti": {
- 	 	 	 	"trans": "معروف.",
+ 	 	 	 	"trans": "اشعار.",
  	 	 	 	"eng": "noti."
  	 	 	}
  	 	},
@@ -368,7 +368,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"vpnName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "استغلال الدردشة ساري المفعول ، سيتم تغيير جميع الرسائل المرسلة. استخدم ${vpnName} لتأمين اتصالك!",
+ 	 	 	 	 	"trans": "ثغرة الدردشة سارية المفعول ، سيتم تغيير جميع الرسائل المرسلة. استخدم ${vpnName} لتأمين اتصالك!",
  	 	 	 	 	"eng": "Chat exploit is in effect, all message sent will be altered. use ${vpnName} to secure your connection!"
  	 	 	 	},
  	 	 	 	"activateVPN": {
@@ -406,7 +406,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"cost"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "سيتم تمكين دردشة العصابات عندما تنتمي إلى عصابة",
+ 	 	 	 	 	"trans": "سيتم تفعيل دردشة العصابات عندما تنضم إلى عصابة",
  	 	 	 	 	"eng": "gang chat will be enabled when you belong to a gang.\\njoin a gang by making friends in global chat or create your own gang and invite your friends!"
  	 	 	 	},
  	 	 	 	"createButton": {
@@ -418,26 +418,26 @@
  	 	 	 	 	 	"cost",
  	 	 	 	 	 	"currency"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "قم بإنشاء عصابة لـ ${cost} ${currency}",
+ 	 	 	 	 	"trans": "قم بإنشاء عصابة ب ${cost} ${currency}",
  	 	 	 	 	"eng": "Create a gang for ${cost} ${currency}"
  	 	 	 	}
  	 	 	}
  	 	},
  	 	"deathScreen": {
  	 	 	"topTitleLeft": {
- 	 	 	 	"trans": "إصابة فادحة",
+ 	 	 	 	"trans": "إصابة قاتلة",
  	 	 	 	"eng": "fatal injury"
  	 	 	},
  	 	 	"topTitleRight": {
- 	 	 	 	"trans": "مركز SL الطبي",
+ 	 	 	 	"trans": "SL المركز الطبي",
  	 	 	 	"eng": "SL Medical Center"
  	 	 	},
  	 	 	"title": {
- 	 	 	 	"trans": "فطلي",
+ 	 	 	 	"trans": "توقف النبض",
  	 	 	 	"eng": "Flatlined"
  	 	 	},
  	 	 	"subTitleSmall": {
- 	 	 	 	"trans": "خطأ حرج: ارتباط عصبي غير متصل",
+ 	 	 	 	"trans": "خطأ حرج: انقطع الاتصال العصبي",
  	 	 	 	"eng": "Critical Error: Neural Link Disconnected"
  	 	 	},
  	 	 	"progressBarTitle": {
@@ -447,44 +447,44 @@
  	 	},
  	 	"equipmentDisplay": {
  	 	 	"empty": {
- 	 	 	 	"trans": "فارغة",
+ 	 	 	 	"trans": "فارغ",
  	 	 	 	"eng": "Empty"
  	 	 	}
  	 	},
  	 	"equipment": {
  	 	 	"lowPrintLevelTip": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "انخفاض الطباعة المرتبة",
+ 	 	 	 	 	"trans": "رتبة طباعة منخفضة",
  	 	 	 	 	"eng": "Low Printing Rank"
  	 	 	 	}
  	 	 	},
  	 	 	"lowPrintLevelTip2": {
- 	 	 	 	"trans": "زيادة رتبة الطباعة الخاصة بك لإنشاء أسلحة أكثر قوة عن طريق طباعة المزيد من المخابرات",
+ 	 	 	 	"trans": "زد رتبة الطباعة الخاصة بك لإنشاء أسلحة أكثر قوة عن طريق طباعة المزيد من المخططات",
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
  	 	 	},
  	 	 	"lowPrintLevelTip3": {
- 	 	 	 	"trans": "أو عن طريق طباعة السيارات وبيع مخابئك في السوق السوداء",
+ 	 	 	 	"trans": "أو عن طريق طباعة و بيع مخططاتك في السوق السوداء",
  	 	 	 	"eng": "Or by auto print and selling your caches in the Black Market"
  	 	 	},
  	 	 	"quickSlots": {
- 	 	 	 	"trans": "فتحات سريعة",
+ 	 	 	 	"trans": "تخزين سريع الوصول",
  	 	 	 	"eng": "Quick Slots"
  	 	 	},
  	 	 	"equipped": {
- 	 	 	 	"trans": "مسلح",
+ 	 	 	 	"trans": "مجهز",
  	 	 	 	"eng": "Equipped"
  	 	 	}
  	 	},
  	 	"quickSlot": {
  	 	 	"unbindModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "فتحة الكتلة السريعة؟",
+ 	 	 	 	 	"trans": "اخلاء التخزين السريع",
  	 	 	 	 	"eng": "Unbind quick slot?"
  	 	 	 	}
  	 	 	},
  	 	 	"bindModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "حدد عنصر قابل للاستخدامه لربط فتحة سريعة",
+ 	 	 	 	 	"trans": "حدد عنصر قابل للاستخدام لوصله بالتخزين سريع الوصول",
  	 	 	 	 	"eng": "Select a usable item to bind to a quick slot"
  	 	 	 	}
  	 	 	}
@@ -495,7 +495,7 @@
  	 	 	 	"eng": "All Apps"
  	 	 	},
  	 	 	"dungeonList": {
- 	 	 	 	"trans": "قائمة زنزانة",
+ 	 	 	 	"trans": "قائمة الزنازين",
  	 	 	 	"eng": "Dungeon List"
  	 	 	},
  	 	 	"links": {
@@ -511,7 +511,7 @@
  	 	 	 	"eng": "Friend List"
  	 	 	},
  	 	 	"leaderBoard": {
- 	 	 	 	"trans": "ليدربورد",
+ 	 	 	 	"trans": "قائمة الصدارة",
  	 	 	 	"eng": "Leaderboard"
  	 	 	},
  	 	 	"tutorial": {
@@ -530,11 +530,11 @@
  	 	 	 	 	 	"timeSkipMinutes",
  	 	 	 	 	 	"timeSkipCost"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Global Skip (${timeSkipMinutes} دقيقة، تكلف الوحدات ${timeSkipCost})",
+ 	 	 	 	 	"trans": "تسريع عالمي (${timeSkipMinutes} دقيقة, تكلفة ${timeSkipCost} Units) ",
  	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "يتيح لك Global Skip تخطي وقت انتظار AFK، وإنهائه على الفور.\n    سيتم تطبيق هذا التأثير على جميع اللاعبين الذين يؤدون مهمة AFK",
+ 	 	 	 	 	"trans": "التسريع العالمي يتيح لك تجاوز وقت انتظار الخمول, و النتهاء لحظيا, /هذا التأثير سيتم تطبيقه على كل اللاعبين الذين يأدون مهام خمول حاليا",
  	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all player performing AFK task"
  	 	 	 	}
  	 	 	},
@@ -543,7 +543,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"itemSkipMinutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "وقت الفراغ تخطي ({0} دقيقة)",
+ 	 	 	 	 	"trans": "تخطي وقت مجاني (${itemSkipMinutes} دقيقة)",
  	 	 	 	 	"eng": "Free time skip (${itemSkipMinutes} Min)"
  	 	 	 	},
  	 	 	 	"description": {
@@ -551,13 +551,13 @@
  	 	 	 	 	 	"timeSkipItemName",
  	 	 	 	 	 	"itemSkipMinutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "استخدم واحدة من ${timeSkipItemName} الخاص بك لتخطي الدقائق ${itemSkipMinutes}",
+ 	 	 	 	 	"trans": "استخدم واحدة من ${timeSkipItemName} الخاصة بك لتخطي ${itemSkipMinutes} دقيقة ",
  	 	 	 	 	"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
  	 	 	 	}
  	 	 	},
  	 	 	"confirmModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "تأكيد استخدام تخطي؟",
+ 	 	 	 	 	"trans": "تأكيد استخدام التخطي؟",
  	 	 	 	 	"eng": "Confirm use skip?"
  	 	 	 	},
  	 	 	 	"subtitle": {
@@ -567,25 +567,25 @@
  	 	 	},
  	 	 	"inProgressBox": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "تخطي العالم في التقدم",
+ 	 	 	 	 	"trans": "تخطي الوقت العالمي قيد التفعيل",
  	 	 	 	 	"eng": "Global Skip in progress"
  	 	 	 	},
  	 	 	 	"subtitle": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"skippingPlayerCount"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "تسريع {0} المستخدمين ..",
+ 	 	 	 	 	"trans": "جار تسريع ${skippingplayerCount} مستخدم",
  	 	 	 	 	"eng": "Accelerating ${skippingPlayerCount} users.."
  	 	 	 	}
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "يتيح لك Global Skip تخطي وقت انتظار AFK، وإنهائه على الفور.\n    سيتم تطبيق هذا التأثير على جميع اللاعبين الذين يؤدون مهمة AFK ",
+ 	 	 	 	"trans": "التسريع العالمي يتيح لك تجاوز وقت انتظار الخمول, و النتهاء لحظيا, /هذا التأثير سيتم تطبيقه على كل اللاعبين الذين يأدون مهام خمول حاليا",
  	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all players performing an AFK task"
  	 	 	}
  	 	},
  	 	"list": {
  	 	 	"longPressToMultiSelect": {
- 	 	 	 	"trans": "اضغط لفترة طويلة إلى متعدد الاختيار",
+ 	 	 	 	"trans": "اضغط لفترة طويلة للتحديد المتعدد",
  	 	 	 	"eng": "Long press to multi-select"
  	 	 	}
  	 	},
@@ -600,7 +600,7 @@
  	 	 	},
  	 	 	"autoScrap": {
  	 	 	 	"button": {
- 	 	 	 	 	"trans": "خردة السيارات",
+ 	 	 	 	 	"trans": "هدم تلقائي",
  	 	 	 	 	"eng": "Auto Scrap"
  	 	 	 	}
  	 	 	},
@@ -609,28 +609,28 @@
  	 	 	 	"eng": "Inventory"
  	 	 	},
  	 	 	"equipped": {
- 	 	 	 	"trans": "مسلح",
+ 	 	 	 	"trans": "مجهز",
  	 	 	 	"eng": "Equipped"
  	 	 	},
  	 	 	"itemInbox": {
- 	 	 	 	"trans": "العنصر الوارد",
+ 	 	 	 	"trans": "بريد العناصر",
  	 	 	 	"eng": "Item Inbox"
  	 	 	},
  	 	 	"crafting": {
- 	 	 	 	"trans": "صياغة",
+ 	 	 	 	"trans": "صنع",
  	 	 	 	"eng": "Crafting"
  	 	 	}
  	 	},
  	 	"communityItemLore": {
  	 	 	"noLoreButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "خلق leore",
+ 	 	 	 	 	"trans": "انشاء تراث",
  	 	 	 	 	"eng": "Create Lore"
  	 	 	 	}
  	 	 	},
  	 	 	"openButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "اختلال المجتمع",
+ 	 	 	 	 	"trans": "تراث المجتمع",
  	 	 	 	 	"eng": "Community Lore"
  	 	 	 	}
  	 	 	}
@@ -638,26 +638,26 @@
  	 	"itemDisplay": {
  	 	 	"broken": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "عطل",
+ 	 	 	 	 	"trans": "تعطل",
  	 	 	 	 	"eng": "Malfunctioned"
  	 	 	 	},
  	 	 	 	"instruction": {
- 	 	 	 	 	"trans": "هذا العنصر مكسور ، قم بإحضاره إلى Weapon Smith لإصلاحه",
+ 	 	 	 	 	"trans": "هذا العنصر مكسور, خذه لحداد الاسلحة لتصليحه",
  	 	 	 	 	"eng": "This item is broken, bring it to Weapon Smith for repair"
  	 	 	 	}
  	 	 	},
  	 	 	"areaEffect": {
- 	 	 	 	"trans": "[AOE] مجال التأثير، وسوف تطبق تأثير هذا العنصر الحلفاء في القتال معك.",
+ 	 	 	 	"trans": "[AOE] مجال التأثير، تأثير هذا العنصر سيطبق على الحلفاء بالمعركة",
  	 	 	 	"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
  	 	 	},
  	 	 	"lockModal": {
  	 	 	 	"unlock": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "فتح البند؟",
+ 	 	 	 	 	 	"trans": "فتح العنصر؟",
  	 	 	 	 	 	"eng": "Unlock item?"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "عند فتح العنصر ، يمكنك تداوله أو إلغاءه.",
+ 	 	 	 	 	 	"trans": "عند فتح العنصر ، يمكنك تداوله أو هدمه.",
  	 	 	 	 	 	"eng": "When item is unlocked, you can trade or scrap it."
  	 	 	 	 	}
  	 	 	 	},
